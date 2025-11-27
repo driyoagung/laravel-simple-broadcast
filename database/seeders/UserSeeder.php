@@ -26,7 +26,7 @@ class UserSeeder extends Seeder
         // Buat user biasa
         User::create([
             'name' => 'Regular User',
-            'email' => 'chandrasetyacuy@gmail.com',
+            'email' => 'user@gmail.com',
             'email_verified_at' => now(),
             'password' => Hash::make('user123'),
             'role' => 'user',
